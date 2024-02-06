@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdCancel } from "react-icons/md";
 import { RxDividerVertical } from "react-icons/rx";
-import Logo from "../../Assets/Images/LOGO.png"
-import "../Css/Nav.css";
+import Logo from "../Assets/Images/LOGO.png"
+import "./Css/Nav.css"
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isclick, setisclick] = useState(false);
 
@@ -30,13 +31,13 @@ export default function Navbar() {
               <RxDividerVertical size={30} color="white" />
               <li className="">Team </li>
               <RxDividerVertical size={30} color="white" />
-              <li className=" ">Honours and Achivement </li>
+              <li><Link to="/Honourandachivement"> Honours and Achivement</Link></li>
               <RxDividerVertical size={30} color="white" />
               <li className=" ">Product</li>
               <RxDividerVertical size={30} color="white" />
-              <li className=" ">Publications</li>
+              <li> <Link to="/Publications"> Publications </Link></li>
               <RxDividerVertical size={30} color="white" />
-              <li className="">Capacity Building</li>
+              <li ><Link to="/Capacityandbuilding">Capacity Building  </Link></li>
               <RxDividerVertical size={30} color="white" />
               <li className=" ">Callaborations</li>
             </ul>
@@ -60,16 +61,16 @@ export default function Navbar() {
 
         {/* For mobile Navigation */}
         {isclick && (
-          <div className="lg:hidden text-gray-600 body-font   bg-[#162E45]">
+          <div className="lg:hidden text-white body-font   bg-[#162E45]">
             <div className=" w-full pt-2 px-2 pb-3 space-y-1 sm:px-3">
-              <ul className=" w-full block flex-1 flex-col text-center items-center justify-center">
-                <li className="">Home</li>
-                <li className=" ">Team</li>
-                <li className=" ">Honours and Achivement</li>
-                <li className=" ">Product</li>
-                <li className=" ">Publications</li>
-                <li className="">Capacity Building</li>
-                <li className=" ">Callaborations</li>
+              <ul className=" w-full block flex-1 flex-col  text-center items-center justify-center">
+                <li>Home</li>
+                <li>Team</li>
+                <li><Link to="/Honourandachivement"> Honours and Achivement</Link></li>
+                <li>Product</li>
+               <li> <Link to="/Publications"> Publications </Link></li>
+               <li ><Link to="/Capacityandbuilding">Capacity Building  </Link></li>
+                <li>Callaborations</li>
               </ul>
             </div>
           </div>

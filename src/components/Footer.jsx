@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="lg:w-2/5   md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-[#5F5F5F] tracking-widest text-3xl mb-3">Our Mission</h2>
         <nav className="list-none mb-5">
-         <p>ESCV  helps executives meet the challenge of leading dynamic, global, information-intensive organizations. We provide the CIO and other digital leaders with insights on topics such as digital transformation, business complexity, data monetization, and the digital workplace. Through research, teaching, and events, the center stimulates interaction among scholars, students and practitioners. Our consortium comprises more than seventy-five member organizations. lorem ipsum
+         <p>ESCV  helps executives meet the challenge of leading dynamic, global, information-intensive organizations. We provide the CIO and other digital leaders with insights on topics such as digital transformation, business complexity, data monetization, and the digital workplace. Through research, teaching, and events, the center stimulates interaction among scholars, students and practitioners. Our consortium comprises more than seventy-five member organizations. 
         </p>
         </nav>
       </div>
@@ -67,19 +67,19 @@ const Footer = () => {
     <div className=" py-4 px-5 flex flex-wrap justify-between flex-col sm:flex-row">
     
       <span className="flex flex-wrap  sm:mt-0 mt-2 items-center gap-10 justify-center sm:justify-start">
-        <a href='#' className="text-[#5F5F5F]">
+        <a  className="text-[#5F5F5F]">
         <ImYoutube2 size={50}/>
         </a>
-        <a href='#' className=" text-[#5F5F5F]">
+        <a className=" text-[#5F5F5F]">
         <FaTwitter size={30}/>
         </a>
-        <a href='#' className=" text-[#5F5F5F]">
+        <a className=" text-[#5F5F5F]">
         <FaLinkedin size={30}/>
         </a>
-        <a href='#' className=" text-[#5F5F5F]">
+        <a  className=" text-[#5F5F5F]">
         <AiFillInstagram size={35} />
         </a>
-        <a href='#'  className=" text-[#5F5F5F]">
+        <a  className=" text-[#5F5F5F]">
         
         <FaFacebookSquare size={35}/>
         </a>

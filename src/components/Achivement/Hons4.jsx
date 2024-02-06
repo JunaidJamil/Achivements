@@ -17,7 +17,7 @@ const Hons4 = () => {
           
           <div className="flex mt-5 flex-col md:w-full md:flex-row justify-center gap-3">
             <div className=" flex md:w-[40%]">
-              <div className="sm:w-full border-2 h-full  ">
+              <div className="sm:w-full  h-full  ">
                 <img src={img2} alt="award" className="w-full h-full" />
               </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Public/Navbar'
+// import Navbar from '../components/Navbar'
 
-import Footer from '../components/Public/Footer'
+// import Footer from '../components/Footer'
 import HonorsView from '../components/Achivement/HonorsView'
 import Hons from '../components/Achivement/Hons2'
 import Hons3 from '../components/Achivement/Hons3'
@@ -12,7 +12,7 @@ const Achivement = () => {
   return (
    <div>
 
-      <Navbar/>
+     
        {/*Start Honours and Achivment */}
 
        <HonorsView/>
@@ -24,7 +24,6 @@ const Achivement = () => {
        {/*End Honours and Achivment */}
 
 
-      <Footer/>
 
 
 
