@@ -36,33 +36,37 @@ const PublicView = () => {
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase text-center bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
-            <th scope="col" className="px-6 py-3 font-bold text-xl">
-              S.No
-            </th>
+            
             <th scope="col" className="px-6 py-3 font-bold text-xl">
               Title
             </th>
             <th scope="col" className="px-6 py-3 font-bold text-xl">
+             Links
+            </th>
+            <th scope="col" className="px-6 py-3 font-bold text-xl">
               Year
             </th>
+            
+
           </tr>
         </thead>
         <tbody className="">
           {/* Map function for displaying data */}
           {records.map((item, i) => (
             <tr key={i} className="bg-white mt-10 border-2 sm:text-left dark:bg-gray-800 dark:border-gray-800">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-lg text-black whitespace-nowrap dark:text-white"
-              >
-                {item.sno}
-              </th>
-              <td className="px-6 py-4 flex text-lg justify-between text-black">
+              
+              <td className="px-6 py-4 text-lg  text-black">
                 {item.title}
-                <a href="#" className="ml-5 h-2 underline">
+                
+              </td>
+              <td className="px-6 py-4 text-lg text-black">
+              <a href="#" className="ml-5 h-2 underline">
                   View
                 </a>
               </td>
+
+
+
               <td className="px-6 py-4 text-lg text-black">{item.year}</td>
             </tr>
           ))}

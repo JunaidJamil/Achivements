@@ -1,10 +1,14 @@
+
+import img from "../../../Assets/Images/hamza.png"
+
 export const AppData = [
 
 
     {
         Name:"Muhammad Ali",
         field: "Computer Science & IT",
-        batch: "Batch 2022"
+        batch: "Batch 2022",
+        
      },
      {
         Name:"Noor UL Iman",
@@ -29,7 +33,8 @@ export const AppData = [
      {
         Name:"Ali Hamza",
         field: "BS Software Engineering",
-        batch: "Batch 2020"
+        batch: "Batch 2020",
+        images:img
      },
      {
         Name:"Ali Hamza",

@@ -6,7 +6,7 @@ const Hons5 = () => {
   return (
     <div className="w-full">
       <div className=" mt-10  mx-auto w-full">
-        <div className="bg-[#A8A8A8] mains px-2 py-2   sm:m-4 sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1100px]  2xl:max-w-[1200px]   ">
+        <div className="bg-[#A8A8A8] mains px-2 py-2 sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1100px]  2xl:max-w-[1200px]   ">
           <p className=" text-xl">
             NCL - NED hosted “National Sterring Committe of NCAI Secretariat,
             Islamabad for its Technology Showcasing.𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐬𝐡𝐨𝐰𝐜𝐚𝐬𝐢𝐧𝐠.
